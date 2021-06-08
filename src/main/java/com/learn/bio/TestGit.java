@@ -12,12 +12,13 @@ import java.util.HashMap;
  */
 public class TestGit {
     public static void main(String[] args) {
+        System.out.println("测试代码在两个平台同时推送");
         HashMap<String, Integer> hashMap = new HashMap<>(10);
         hashMap.put("1", 1);
         hashMap.put("2", 2);
         hashMap.put("3", 3);
         hashMap.put("4", 4);
-//        System.out.println(hashMap.size());
+        System.out.println(hashMap.size());
         for (int i = 1; i <= hashMap.size(); i++) {
             System.out.println(hashMap.get(i + ""));
         }
