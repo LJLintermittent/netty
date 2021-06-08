@@ -13,6 +13,7 @@ import java.nio.ByteBuffer;
 @SuppressWarnings("all")
 public class BufferDemo {
     public static void main(String[] args) {
+        System.out.println("测试nio");
         ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
         System.out.println(byteBuffer);
         byteBuffer.putInt(1);
