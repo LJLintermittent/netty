@@ -12,6 +12,7 @@ import java.util.HashMap;
  */
 public class TestGit {
     public static void main(String[] args) {
+        System.out.println("gitee平台修改代码，测试本地拉取");
         System.out.println("测试代码在两个平台同时推送");
         HashMap<String, Integer> hashMap = new HashMap<>(10);
         hashMap.put("1", 1);
